@@ -1,0 +1,21 @@
+body {
+  font-family: "Comic Sans MS", "Comic Neue", "Blackboard", "Blackboard SE", cursive, sans-serif;
+}
+
+*, *::before, *::after {
+  font-family: inherit
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.username {
+  flex-direction: row;
+}
+
+.password {
+  flex-direction: row;
+}
